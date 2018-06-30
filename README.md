@@ -3,6 +3,7 @@ Quake Report App
 
 This app displays a list of recent earthquakes in the world
 from the U.S. Geological Survey (USGS) organization.
+With minimum intensity 5 and maximum 20 recent results.
 
 Used in a Udacity course in the Beginning Android Nanodegree.
 
