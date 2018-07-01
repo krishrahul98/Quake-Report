@@ -44,4 +44,7 @@
 
     <!-- Magnitude circle color for an earthquake with magnitude over 10 -->
     <color name="magnitude10plus">#C03823</color>
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_earthquakes">No earthquakes found.</string>
+    <string name="no_internet_connection">No Internet connection</string>
 </resources>
