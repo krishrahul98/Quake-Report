@@ -193,11 +193,6 @@ public final class QueryUtils {
 
         // Extract relevant fields from the JSON response and create a list of {@link Earthquake}s
         List<Earthquake> earthquakes = extractFeatureFromJson(jsonResponse);
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
         // Return the list of {@link Earthquake}s
         return earthquakes;
